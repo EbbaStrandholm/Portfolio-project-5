@@ -63,7 +63,10 @@ and floats them to the left */
 .welcome {
     width: 100%;
     height: 500px;
-    background-color: blue;
+    background-color: #e4dfd5;
+    overflow: hidden;
+
+    position: relative;
 }
 
 #welcome-pic {
@@ -84,6 +87,41 @@ and floats them to the left */
     }to{
         transform: scale(1.05);
     }
+}
+
+/* styles the text-bubble that appears on top of the welcome banner for the webbpage, as well as sets its position as absolute
+so it stays in place neatly over the banner */
+#motto {
+    font-size: 150%;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+    width: 400px;
+    height: 200px;
+
+    padding: 40px 0 0 30px;
+    background-color: #5ea999;
+
+    bottom: 50px;
+    left: 50px;
+    position: absolute;
+
+    border-radius: 40px;
+} 
+
+/* motto specific rules */
+#motto h2 {
+    font-family: 'Gajraj One', sans-serif;
+    font-size: 150%;
+    font-weight: 100;
+    color: #1B5448;
+    margin: 10px 0 0 0;
+} /* styles the text inside the motto bubble */
+
+#motto p {
+    font-weight: 900;
+    color: #1B5448;
+    margin: 10px 0 0 0;
 }
 
 /* General styling for the description class element */
