@@ -2,47 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Roboto:wght@100&display=swap');
 
 /* styling used for the whole page */
-
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* sets the general font for the whole page */
 body {
     font-family: 'Roboto', sans-serif;   
 }
 
+/* General styling for the header element */
 header {
     width: 100%;
     height: 150px;
     background-color: yellow;
 }
 
+/* General styling for the welcome class element */
 .welcome {
     width: 100%;
     height: 500px;
     background-color: blue;
 }
 
+/* General styling for the description class element */
 .description {
     width: 100%;
     height: 500px;
     background-color: green;
 }
 
+/* General styling for the exercises class element */
 .exercises {
     width: 100%;
     height: 500px;
     background-color: red;
 }
 
+/* General styling for the contact class element */
 .contact {
     width: 100%;
     height: 500px;
     background-color: purple;
 }
 
+/* General styling for the footer element */
 footer {
     width: 100%;
     height: 150px;
