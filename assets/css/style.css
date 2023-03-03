@@ -20,6 +20,15 @@ header {
     background-color: yellow;
 }
 
+/* logo styling */
+#logo {
+    font-family: 'Gajraj One', sans-serif;
+    float: left;
+    font-size: 500%;
+    margin: 1% 0 0 60px;
+    color: #1B5448;
+}
+
 /* General styling for the welcome class element */
 .welcome {
     width: 100%;
