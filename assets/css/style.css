@@ -189,27 +189,6 @@ so it stays in place neatly over the banner */
     text-transform: uppercase;
 }
 
-#strength {
-    width: 30%;
-    padding: 20px 10px 0 10px;
-    float: left;
-    background-color: green;
-}
-
-#balance {
-    width: 30%;
-    padding: 20px 10px 0 10px;
-    float: right;
-    background-color: rgb(128, 13, 0);
-}
-
-#stamina {
-    width: 30%;
-    padding: 20px 10px 0 10px;
-    margin: 0 auto;
-    background-color: rgb(0, 13, 128);
-}
-
 /* General styling for the contact class element */
 .contact {
     width: 100%;
