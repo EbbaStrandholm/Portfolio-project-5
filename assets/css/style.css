@@ -169,7 +169,7 @@ so it stays in place neatly over the banner */
   }
 
 /* General styling for the exercises class element */
-.exercises {
+#exercises {
     height: 500px;
     background-image: url("../images/exercise-bg.jpg");
     background-position: center;
@@ -177,7 +177,8 @@ so it stays in place neatly over the banner */
     background-size: cover;
 }
 
-.exercises div {
+/* shapes the container divs and gives them a darker opacity background */
+#exercises div {
     background-color: rgba(0, 0, 0, .6);
     width: 20%;
     height: 300px;
