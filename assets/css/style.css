@@ -63,12 +63,14 @@ and floats them to the left */
 .welcome {
     width: 100%;
     height: 500px;
+    margin: 0 0 50px 0;
     background-color: #e4dfd5;
     overflow: hidden;
 
     position: relative;
 }
 
+/* adds in a wlecoming banner for the webpage */
 #welcome-pic {
     background: url("../images/hero-image.jpg");
     width: 100%;
@@ -129,6 +131,13 @@ so it stays in place neatly over the banner */
     width: 100%;
     height: 500px;
     background-color: green;
+}
+
+#who-am-i {
+    width: 300px;
+    height: 300px;
+    background-color: #5ea999;
+    margin: auto;
 }
 
 /* General styling for the exercises class element */
