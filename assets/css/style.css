@@ -133,6 +133,7 @@ so it stays in place neatly over the banner */
     height: 500px;
 }
 
+/* hte background shape for the who-am-i description */
 #who-am-i {
     width: 400px;
     height: 400px;
@@ -141,11 +142,13 @@ so it stays in place neatly over the banner */
     border-radius: 25%;
 }
 
+/* positios the text into the designated area */
 #who-am-i-text {
     position: relative;
     margin: 0;
 }
 
+/* gives the h2 element the correct styling to fit the theme of the rest of the page */
 #who-am-i-text h2 {
     text-transform: uppercase;
     font-family: 'Gajraj One', sans-serif;
@@ -154,6 +157,7 @@ so it stays in place neatly over the banner */
     padding: 25px;
 }
 
+/* styles the paragraph element to fit into the designated box, as well as styles it to fit the rest of the pages theme */
 #who-am-i-text p {
     height: 25%;
     line-height: 2;
@@ -166,9 +170,44 @@ so it stays in place neatly over the banner */
 
 /* General styling for the exercises class element */
 .exercises {
-    width: 100%;
     height: 500px;
-    background-color: red;
+    background-image: url("../images/exercise-bg.jpg");
+    background-position: center;
+    overflow: hidden;
+}
+
+/* adds the correct color and font to the header of the exercise-desc elements */
+.exercise-desc h2 {
+    color: #d8d1c4;
+    font-family: 'Gajraj One', sans-serif;
+}
+
+/* adds the correct color and font weight to the paragraphs of the exercise-desc element */
+.exercise-desc p {
+    color: #d8d1c4;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+#strength {
+    width: 30%;
+    padding: 20px 10px 0 10px;
+    float: left;
+    background-color: green;
+}
+
+#balance {
+    width: 30%;
+    padding: 20px 10px 0 10px;
+    float: right;
+    background-color: rgb(128, 13, 0);
+}
+
+#stamina {
+    width: 30%;
+    padding: 20px 10px 0 10px;
+    margin: 0 auto;
+    background-color: rgb(0, 13, 128);
 }
 
 /* General styling for the contact class element */
