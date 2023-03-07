@@ -50,11 +50,6 @@ and floats them to the left */
     color: #1B5448;
 }
 
-/* adds a green bar when the mouse hovers over the navigation link */
-.navber, a:hover {
-    border-bottom: 3px solid #1B5448;
-}
-
 /* targets both the logo and navbar, getting them on the same lineheight */
 #logo, .navbar {
     line-height: 120px;
@@ -216,8 +211,23 @@ so it stays in place neatly over the banner */
 
 /* General styling for the footer element */
 footer {
+    background-color: #739992;
+    margin-top: 50px;
     width: 100%;
     height: 150px;
-    background-color: orange;
-}
+    text-align: center;
+} /* set the height and width of the footer, as well as make sure that it is placed underneath the other elements in the webbpage */
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    padding-top: 50px;
+} /* makes sure that the social media icons/links is in the right position, at the center of the footer */
+
+footer a i {
+    color: #1B5448;
+    font-size: 250%;
+    letter-spacing: 50px;
+} /* adds some style and size for the favicons for the social media links */
 
