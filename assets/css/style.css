@@ -205,7 +205,7 @@ so it stays in place neatly over the banner */
 /* General styling for the contact class element */
 /* make three same sized boxes with even distance inbetween, all placed horizontally. these are containing the contact
 information plus an image in the middle */
-.contact {
+#contact {
     margin: 50px 50px;
     height: 250px;
 }
