@@ -225,6 +225,15 @@ so it stays in place neatly over the banner */
     text-align: left;
 }
 
+.member-button {
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px 0 0 25%;
+}
+
 /* General styling for the exercises class element */
 #exercises {
     height: 500px;
@@ -281,6 +290,7 @@ information plus an image in the middle */
     border-radius: 25px;
 }
 
+/* styles the h2 element of the reviews div */
 #review h2 {
     font-family: 'Gajraj One', sans-serif;
     text-transform: uppercase;

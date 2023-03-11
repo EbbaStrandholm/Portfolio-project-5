@@ -71,14 +71,15 @@
                 1 session - 300kr
             </p>
             <p>
-                5 sessions - 1200kr
-            </p>
-            <p>
                 10 sessions - 2500kr
             </p>
             <p>
-                membership basic/premium - 1800kr/2500kr
+                membership basic - 1800kr - free use of sessions throughout the month
             </p>
+            <p>
+                membership premium - 2500kr - free use of session, and access to tailored nutrition plan
+            </p>
+            <a href="/pop-up-pages/membership.html"><button class="member-button">membership</button></a>
         </div>
         <div id="nutrition-plans">
             <h2>nutrition plans</h2>
@@ -94,6 +95,7 @@
             <p>
                 keep weight, gain muscle
             </p>
+            <a href="/pop-up-pages/membership.html"><button class="member-button">nutrition-plan</button></a>
         </div>
     </section>
 
@@ -149,8 +151,21 @@
             </p>
         </div>
         <div id="review">
-            <h2>Reviews</h2
-                >
+            <h2>Reviews</h2>
+            <form action="" method="POST">
+               <!-- {% csrf_token %} --> 
+                <p>Write Your Review</p>
+                <div>
+                    <!-- Rating Stars-->
+                    <p> Review Title:</p>
+                    <input type="text" class="form-control" name="subject" required>
+                    <br>
+                    <p> Review:</p>
+                    <textarea name="review" rows="4" class="form-control" required></textarea>
+                    <br>
+                    <input type="submit" value="Submit Review" class="btn btn-primary">
+                </div>
+            </form>
         </div>
         <div id="crossfit-image">
             <img src="assets/images/crossfit-woman.jpg" alt="a woman holding a workoutbar">
