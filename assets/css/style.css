@@ -169,19 +169,32 @@ so it stays in place neatly over the banner */
     height: 500px;
 }
 
+/* places the memberships inside a box, while also positioning it to the left */
 #membership {
     width: 45%;
     height: 500px;
     float: left;
-    background-color: #739992;
+    background-color: #5ea999;
     border-radius: 25px;
 }
 
+/* add styling to the text inside the membership div */
+#membership h2 {
+    color: #1B5448;
+    font-family: 'Gajraj One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+/* places the nutrition plans inside a box, while also positioning it to the right */
 #nutrition-plans {
     width: 45%;
     height: 500px;
     float: right;
-    background-color: #739992;
+    background-color: #5ea999;
     border-radius: 25px;
 }
 
