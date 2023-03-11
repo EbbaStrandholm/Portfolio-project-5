@@ -18,4 +18,5 @@ from django.urls import path
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('submit_review/', views.submit_review, name='submit_review'),
 ]
