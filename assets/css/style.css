@@ -178,7 +178,7 @@ so it stays in place neatly over the banner */
     border-radius: 25px;
 }
 
-/* add styling to the text inside the membership div */
+/* add styling to the h2 element inside the membership div */
 #membership h2 {
     color: #1B5448;
     font-family: 'Gajraj One', sans-serif;
@@ -188,6 +188,7 @@ so it stays in place neatly over the banner */
     padding: 20px;
 }
 
+/* add styling to the paragraph elements if the membership div */
 #membership p {
     font-size: 20px;
     font-weight: 900;
@@ -203,6 +204,25 @@ so it stays in place neatly over the banner */
     float: right;
     background-color: #5ea999;
     border-radius: 25px;
+}
+
+/* add styling to the h2 element inside the nutrition plans div */
+#nutrition-plans h2 {
+    color: #1B5448;
+    font-family: 'Gajraj One', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+
+/* add styling to the paragraph element inside the nutrition plans div */
+#nutrition-plans p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1B5448;
+    padding: 20px 50px;
+    text-align: left;
 }
 
 /* General styling for the exercises class element */
