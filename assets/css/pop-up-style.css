@@ -1,0 +1,113 @@
+/* font url import */
+@import url('https://fonts.googleapis.com/css2?family=Gajraj+One&family=Roboto:wght@100&display=swap');
+
+/* styling used for the whole page */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* sets the general font for the whole page */
+body {
+    font-family: 'Roboto', sans-serif;   
+    background-color: #d8d1c4;
+}
+
+/* General styling for the header element */
+header {
+    width: 100%;
+    height: 150px;
+    background-color: #739992;
+}
+
+/* logo styling */
+
+/* places the logo in the upper left corner, gives it the font Gajraj One, and gives it a darker green color */
+#logo {
+    font-family: 'Gajraj One', sans-serif;
+    float: left;
+    font-size: 500%;
+    margin: 0 0 0 50px;
+    color: #1B5448;
+}
+
+/* navigationbar styling */
+
+/* places the navigation bar next to the logo in the header element, puts a distance between the navigation links
+and floats them to the left */
+.navbar, li {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+    list-style-type: none;
+    margin: 0 0 0 50px;
+}
+
+/* makes sure that the navigation link stays green and doesnt turn into the typical blue color after clicked */
+.navbar, a {
+    text-decoration: none;
+    color: #1B5448;
+}
+
+/* targets both the logo and navbar, getting them on the same lineheight */
+#logo, .navbar {
+    line-height: 120px;
+}
+
+/* general pop-up-page styling */
+#sessions-pop-up {
+    height: 500px;
+    background-color: #d8d1c4;
+}
+
+#sessions-pop-up-div div {
+    background-color: rgba(53, 122, 113, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 4%;
+    text-align: center;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+#nutritions-pop-up {
+    height: 500px;
+    background-color: #d8d1c4;
+}
+
+#nutritions-pop-up-div div {
+    background-color: rgba(53, 122, 113, 0.6);
+    width: 20%;
+    height: 300px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 4%;
+    text-align: center;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+/* General styling for the footer element */
+footer {
+    background-color: #739992;
+    margin-top: 50px;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+} /* set the height and width of the footer, as well as make sure that it is placed underneath the other elements in the webbpage */
+
+footer ul {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    padding-top: 50px;
+} /* makes sure that the social media icons/links is in the right position, at the center of the footer */
+
+footer a i {
+    color: #1B5448;
+    font-size: 250%;
+    letter-spacing: 50px;
+} /* adds some style and size for the favicons for the social media links */
