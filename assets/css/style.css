@@ -186,7 +186,14 @@ so it stays in place neatly over the banner */
     text-align: center;
     font-size: 30px;
     padding: 20px;
+}
 
+#membership p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #1B5448;
+    padding: 20px 50px;
+    text-align: left;
 }
 
 /* places the nutrition plans inside a box, while also positioning it to the right */
@@ -246,12 +253,21 @@ information plus an image in the middle */
 }
 
 /* email-form specific rules */
-#email-form {
+#review {
     width: 400px;
     height: 250px;
     float: left;
-    background-color: #739992;
+    background-color: #5ea999;
     border-radius: 25px;
+}
+
+#review h2 {
+    font-family: 'Gajraj One', sans-serif;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #1B5448;
+    padding: 10px;
+    text-align: center;
 }
 
 /* email information specific rules */
@@ -259,7 +275,7 @@ information plus an image in the middle */
     width: 400px;
     height: 250px;
     float: right;
-    background-color: #739992;
+    background-color: #5ea999;
     border-radius: 25px;
 }
 
