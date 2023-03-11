@@ -163,6 +163,28 @@ so it stays in place neatly over the banner */
     color: #1B5448;
   }
 
+/* membership and exercise plans, as well as sessions by themselves */
+#memberships-nutrition {
+    margin: 50px 50px;
+    height: 500px;
+}
+
+#membership {
+    width: 45%;
+    height: 500px;
+    float: left;
+    background-color: #739992;
+    border-radius: 25px;
+}
+
+#nutrition-plans {
+    width: 45%;
+    height: 500px;
+    float: right;
+    background-color: #739992;
+    border-radius: 25px;
+}
+
 /* General styling for the exercises class element */
 #exercises {
     height: 500px;
