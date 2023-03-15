@@ -73,23 +73,6 @@ and floats them to the left */
     overflow: hidden;
 }
 
-#nutritions-pop-up {
-    height: 500px;
-    background-color: #d8d1c4;
-}
-
-#nutritions-pop-up-div div {
-    background-color: rgba(53, 122, 113, 0.6);
-    width: 20%;
-    height: 300px;
-    float: left;
-    margin-top: 100px;
-    margin-left: 4%;
-    text-align: center;
-    border-radius: 5%;
-    overflow: hidden;
-}
-
 /* General styling for the footer element */
 footer {
     background-color: #739992;

@@ -164,7 +164,7 @@ so it stays in place neatly over the banner */
   }
 
 /* membership and exercise plans, as well as sessions by themselves */
-#memberships-nutrition {
+#memberships-sec {
     margin: 50px 50px;
     height: 500px;
 }
@@ -190,34 +190,6 @@ so it stays in place neatly over the banner */
 
 /* add styling to the paragraph elements if the membership div */
 #membership p {
-    font-size: 20px;
-    font-weight: 900;
-    color: #1B5448;
-    padding: 20px 50px;
-    text-align: left;
-}
-
-/* places the nutrition plans inside a box, while also positioning it to the right */
-#nutrition-plans {
-    width: 45%;
-    height: 500px;
-    float: right;
-    background-color: #5ea999;
-    border-radius: 25px;
-}
-
-/* add styling to the h2 element inside the nutrition plans div */
-#nutrition-plans h2 {
-    color: #1B5448;
-    font-family: 'Gajraj One', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-}
-
-/* add styling to the paragraph element inside the nutrition plans div */
-#nutrition-plans p {
     font-size: 20px;
     font-weight: 900;
     color: #1B5448;
