@@ -57,7 +57,7 @@ and floats them to the left */
 
 /* general pop-up-page styling */
 #membership-pop-up {
-    height: 500px;
+    height: 100%;
     background-color: #d8d1c4;
 }
 
@@ -66,7 +66,7 @@ and floats them to the left */
     background-color: rgba(53, 122, 113, 0.6);
     width: 45%;
     float: left;
-    margin: 100px 2%;
+    margin: 100px 5%;
     text-align: center;
     border-radius: 5%;
 }
@@ -96,7 +96,7 @@ and floats them to the left */
     background-color: rgba(53, 122, 113, 0.6);
     width: 45%;
     float: left;
-    margin: 100px 2%;
+    margin: 100px 5%;
     text-align: center;
     border-radius: 5%;
 }
@@ -134,7 +134,7 @@ footer ul {
     list-style-type: none;
     display: inline-block;
     text-align: left;
-    padding-top: 50px;
+    padding-top: 25px;
 } /* makes sure that the social media icons/links is in the right position, at the center of the footer */
 
 footer a i {
@@ -142,3 +142,20 @@ footer a i {
     font-size: 250%;
     letter-spacing: 50px;
 } /* adds some style and size for the favicons for the social media links */
+
+/* responsiveness for pop-up elements */
+@media screen and (max-width:900px) {
+    #membership-1-pop-up, #membership-2-pop-up {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:470px) {
+    #membership-pop-up {
+        height: 1500px;
+    }
+    footer a i {
+        font-size: 150%;
+        letter-spacing: 30px;
+    }
+}
