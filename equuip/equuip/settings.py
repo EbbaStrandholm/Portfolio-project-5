@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'equuip.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'dc3pier7nca665',
+        'USER': 'nffkfvjadsqnwf',
+        'PASSWORD': '0778bba1eec0e91d7b2cc9a2740d805c63583a44a44a8653c4715ef41d86c396',
+        'HOST': 'ec2-34-242-154-118.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
