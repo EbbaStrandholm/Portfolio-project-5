@@ -245,7 +245,6 @@ so it stays in place neatly over the banner */
     margin-left: 4%;
     text-align: center;
     border-radius: 5%;
-    overflow: hidden;
 }
 
 /* adds the correct color and font to the header of the exercise-desc elements */
