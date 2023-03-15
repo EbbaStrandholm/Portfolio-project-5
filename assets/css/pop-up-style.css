@@ -56,14 +56,14 @@ and floats them to the left */
 }
 
 /* general pop-up-page styling */
-#sessions-pop-up {
+#membership-pop-up {
     height: 500px;
     background-color: #d8d1c4;
 }
 
-#sessions-pop-up-div div {
+#membership-pop-up-div div {
     background-color: rgba(53, 122, 113, 0.6);
-    width: 20%;
+    width: 45%;
     height: 300px;
     float: left;
     margin-top: 100px;
