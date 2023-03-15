@@ -170,7 +170,7 @@ so it stays in place neatly over the banner */
 }
 
 /* places the memberships inside a box, while also positioning it to the left */
-#membership {
+#membership-1 {
     width: 45%;
     height: 500px;
     float: left;
@@ -179,31 +179,51 @@ so it stays in place neatly over the banner */
 }
 
 /* add styling to the h2 element inside the membership div */
-#membership h2 {
+#membership-1 h2 {
     color: #1B5448;
     font-family: 'Gajraj One', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     padding: 20px;
 }
 
 /* add styling to the paragraph elements if the membership div */
-#membership p {
-    font-size: 20px;
+#membership-1 p {
+    font-size: 25px;
     font-weight: 900;
     color: #1B5448;
     padding: 20px 50px;
     text-align: left;
+    text-transform: uppercase;
 }
 
-.member-button {
-    width: 50%;
-    height: 50px;
-    font-size: 20px;
+/* adds styling and positioning to the gold membership deal */
+#membership-2 {
+    width: 45%;
+    height: 500px;
+    float: right;
+    background-color: #5ea999;
+    border-radius: 25px;
+}
+
+/* adds styling to the h2 element of the gold membership deal */
+#membership-2 h2 {
+    color: #1B5448;
+    font-family: 'Gajraj One', sans-serif;
     text-transform: uppercase;
     text-align: center;
-    margin: 30px 0 0 25%;
+    font-size: 40px;
+    padding: 20px;
+}
+
+#membership-2 p {
+    font-size: 25px;
+    font-weight: 900;
+    color: #1B5448;
+    padding: 20px 50px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
 /* General styling for the exercises class element */
