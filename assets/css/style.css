@@ -293,7 +293,7 @@ information plus an image in the middle */
 
 /* email information specific rules */
 #email {
-    width: 45%;
+    width: 40%;
     height: 300px;
     float: right;
     background-color: #5ea999;
@@ -321,7 +321,7 @@ information plus an image in the middle */
 
 /* crossfit-image specific rules */
 #crossfit-image {
-    width: 45%;
+    width: 40%;
     height: 300px;
     float: left;
 }
