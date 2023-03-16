@@ -42,18 +42,18 @@ and floats them to the left */
     font-weight: bold;
     list-style-type: none;
     margin: 0 0 0 50px;
-}
+} 
 
 /* makes sure that the navigation link stays green and doesnt turn into the typical blue color after clicked */
 .navbar, a {
     text-decoration: none;
     color: #1B5448;
-}
+} 
 
 /* targets both the logo and navbar, getting them on the same lineheight */
 #logo, .navbar {
     line-height: 120px;
-}
+} 
 
 /* general pop-up-page styling */
 #membership-pop-up {
@@ -155,6 +155,15 @@ footer a i {
     }
 }
 
+@media screen and (max-width:600px) {
+    #logo {
+        font-size: 350%;
+    }
+    header {
+        height: 100px;
+    }
+}
+
 @media screen and (max-width:470px) {
     #membership-pop-up {
         height: 1200px;
@@ -163,9 +172,4 @@ footer a i {
         font-size: 150%;
         letter-spacing: 30px;
     }
-}
-
-/* responsiveness for pop-up elements */
-@media screen and (max-width) {
-
 }
